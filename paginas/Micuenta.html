@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SB Zapatillas Originales - Mi Cuenta</title>
+    
+    <link rel="shortcut icon"href="../Multimedia/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <section>
+            <ol><a href="../index.html"><img src="../Multimedia/logo.png" alt="Logo SB" class="logoback"></a></ol>
+        </section>
+            <ul class="menu">
+                <li><a href="Hombre.html">Hombre </a></li>
+                <li><a href="Mujer.html">Mujer </a></li>
+                <li><a href="buscar.html}">Buscar </a> </li>
+                <li><a href="Carrito.html">Carrito </a></li>
+                <li>Mi Cuenta</li>
+            </ul>
+            <h1 class="encabezado">SB Zapatillas Originales</h1>
+
+            <h2 class="encabezado">a todo el país</h2>
+        </nav>
+    </header>
+    <main>
+        <section class="cuenta">
+         <h1>Mi Cuenta</h1>
+        <h2>Completa tu registro</h2>
+    </section>
+
+        <form class="formulario">
+            <label for="Usuario">Usuario:</label>
+            <input type="text" name="Usuario" required>
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" required>
+            
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" required>
+
+            <label for="Edad">Edad:</label>
+            <input type="Number" name="Edad" required>
+            
+            
+            <label for="Correo:">Correo:</label>
+            <input type="email" name="Correo" required>
+            <br>
+            <label for="PASS">Contraseña:</label>
+            <input type="password" name="PASS" required>
+        
+            <label for="Direccion">Dirección:</label>
+            <input type="text" name="Direccion" required>
+
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" value="Femenino" name="Sexo"> Femenino
+            <input type="radio" value="Masculino" name="Sexo"> Masculino
+            <input type="radio" value="Prefiero no especificar" name="Sexo"> Prefiero no especificar
+             <script>
+             function alerta() {
+            alert("Felicidades! Te has registrado con èxito.");
+            }
+            </script>
+        <input type="submit" onclick="alerta" value="Crear mi Cuenta">
+        
+            <input type="reset">
+            
+        
+            
+        </form>
+    </main>
+    <Footer>
+        <section class="redes">
+        <p>¡CONTACTANOS!</p>
+        <div class="redes">
+            <img src="../Multimedia/instagram.png" alt="SBzapasoriginales"><p>SBzapasoriginales</p>
+            <img src="../Multimedia/facebook.png" alt="SBzapasoriginales"><p>SBzapasoriginales</p>
+            <img src="../Multimedia/whatsapp.png" alt="0800-0800-0800"><p>0800-0800-0800</p>
+        </div>
+    </section>
+
+    </Footer>
+</body>
+</html>

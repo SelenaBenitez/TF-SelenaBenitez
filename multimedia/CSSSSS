@@ -1,0 +1,127 @@
+body{
+    font-family: fantasy;
+    background-color: rgb(122, 116, 112);
+}
+.menu{
+    background-color: rgb(110, 95, 95);
+}
+.menu ul a{
+    display: inline-block;
+    text-decoration-style: none;
+    color: aliceblue;
+    background-color: rgb(196, 140, 140);
+   
+}
+
+.menu ul li{
+    padding: 10px 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 800px;
+    
+}
+
+
+.redes img{
+width: 45px;
+position: relative;
+top: 202px;
+}
+.redes p{
+    background-color: rgba(252, 231, 231, 0.849);
+    display: inline-block;
+    position: relative;
+    top: 200px;
+}
+
+.logo {
+    width: 110px;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    left: 5px;
+    
+}
+.encabezado{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+
+    background-color: rgb(163, 80, 80);
+color: aliceblue;
+}
+.ZapatillasH{
+
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    width: 10px;
+    bottom: 400px;
+    top: 5px;
+    
+    
+}
+.ZapasHP{
+
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    width: 200px;
+    bottom: 75px;
+}
+.mens{
+    display: inline-block;
+    background-color: rgba(252, 231, 231, 0.849);
+    padding-inline: 300px;
+    margin-left: 210px;
+    font-size: 50px;
+    
+
+}
+
+.logoback {
+    width: 110px;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    right: 45px;
+    padding-left: 10px;
+}
+.formulario{
+    background-color: rgba(252, 231, 231, 0.849);
+}
+.cuenta{
+    background-color: rgb(252, 231, 231, 0.849);
+    padding-inline: 580px;
+    color: rgb(73, 73, 73);
+    text-decoration: underline;
+    
+}
+.woman {
+
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 300;
+    bottom: 75px;
+    
+}
+.ZapatillasM {
+
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    width: 10px;
+    bottom: 400px;
+    top: 5px;
+    
+    
+}
+.carrito{
+color: rgb(110, 95, 95);
+background-color: rgba(252, 231, 231, 0.849);
+text-align: center;
+}
